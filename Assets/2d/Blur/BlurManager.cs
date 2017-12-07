@@ -21,12 +21,12 @@ public class BlurManager : MonoBehaviour {
    
     void OnGUI()
     {
-        if(GUI.Button(new Rect(0,0,100,50), "Clear"))
+        if(GUI.Button(new Rect(0,0,200,100), "Clear"))
         {
             clearTime = length;
         }
        
-        if(GUI.Button(new Rect(100,0,100,50), "Blur"))
+        if(GUI.Button(new Rect(200,0,200,100), "Blur"))
         {
             blurTime = length;
         }
